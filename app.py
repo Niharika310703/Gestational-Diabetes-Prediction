@@ -21,7 +21,7 @@ def preprocess_new_data_array(new_data_array, scaler):
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
-    return render_template('GDM.html')
+    return render_template('index.html')
 
 @app.route('/predict', methods=['POST'])
 def predict():
